@@ -31,6 +31,7 @@ export default class Todo extends Component {
     return (
       <div>
         <h2　style={red}>タスク登録</h2>
+        <p>なんかの文章</p>
         <input type="text" onInput={this.onInput} />
         <button onClick={this.addTodo} >登録</button>
         <ul>
